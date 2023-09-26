@@ -1,0 +1,234 @@
+/* font-family: 'Archivo Narrow', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.menu-bg{
+  background-color: #afafe9!important;
+
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 8px 0;
+}
+a{
+    text-decoration: none;
+}
+
+
+header{
+     background: url(img/baner.jpg) no-repeat center center / cover;
+}
+
+
+.slider-content{
+    padding: 160px 0;
+
+}
+.slider-content h3,h1{
+    font-weight: 700;
+}
+.slider-content h3{
+    font-size: 40px;
+    color: #ffff;
+}
+.slider-content h1{
+    font-size: 100px;
+    color: #fefbfc;
+    border: 2px solid #fefbfc;
+    display: inline-block;
+    padding: 12px 20px;
+}
+.slider-contenth h1 ,span{
+    color: #87d37c;
+}
+.slider-content h4{
+    font-size: 36px;
+    color: #ffff;
+}
+.about-icon{
+    font-size: 70px;
+    transition: .4s;
+}
+.about-meta h3{
+   
+    font-size: 30px;
+    transition: .4s;
+    text-transform: uppercase;
+}
+.about-meta  p{
+    text-align: justify;
+}
+.section_titail h2{
+    font-weight: 700px;
+    font-size: 36px;
+    font-family: 'Archivo Narrow', sans-serif;
+    text-transform: uppercase;
+}
+.section_titail p{
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.about-item{
+    margin-bottom: 20px;
+}
+.about-item:hover .about-icon i{
+    color: #87d37c;
+}
+.about-item:hover .about-meta h3{
+    color: #87d37c;
+}
+/* ser */
+#services{
+    background-color: #e1e1e1;
+}
+.single-services{
+    position: relative;
+    overflow: hidden;
+}
+.services-overly {
+    position: absolute;
+    height: 100%;
+    width: 104%;
+    background: #0000007d;
+    bottom: -100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    transition: .5s;
+    
+}
+
+.services-overly a {
+    color: #ffff;
+    font-size: 20px;
+    height: 60px;
+    width: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.services-overly a:hover {
+    background: #87d37c;
+    border: solid #87d37c;
+}
+.single-services:hover .services-overly{
+    bottom: 0;
+}
+
+/* ser */
+/* portfolio */
+.portfolio-item{
+    position: relative;
+    overflow: hidden;
+}
+.portfolio-overly {
+    position: absolute;
+    height: 100%;
+    width: 104%;
+    background: rgba(0, 0, 0, 0.457);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: -100%;
+    transition: .5s;
+}
+.portfolio-item:hover .portfolio-overly{
+    bottom: 0;
+}
+/* portfolio */
+
+.prceing-card {
+    background: #39393a;
+    padding: 20px 50px;
+    border-radius: 6px;
+    color: #fff;
+    text-align: center;
+    transition: .5s;
+} 
+.priceing-header {
+    border: 4px solid #fff;
+    height: 160px;
+    width: 160px;
+    margin: 14px auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.priceing-header h1{
+    font-size: 29px;
+}
+.priceing-body ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    max-width: 140px;
+    margin: 0 auto;
+}
+
+.priceing-body ul li {
+    border-bottom: 1px solid #fff;
+    margin-bottom: 28px;
+}
+.btn-order {
+    text-decoration: none;
+    background: #ffff;
+    padding: 3px 9px;
+    font-size: 17px;
+    color: #39393a;
+    transition: .5s;
+}
+.prceing-card:hover{
+    background: #87d37c;
+}
+.prceing-card:hover .priceing-header{
+    background: #fff;
+    color: #39393a;
+}
+#counter-area{
+    background: url(img/counter.jpg);
+    padding: 60px 0;
+}
+.single-counter{
+    border: 2px solid ;
+    text-align: center;
+    padding: 12px;
+}
+.single-counter h1{
+    font-size: 77px;
+}
+.text h3{
+    font-size: 25px;
+}
+.scrollTop a{
+    font-size: 41px;
+    color: #fff;
+}
+.scrollTop {
+    height: 42px;
+    width: 42px;
+    background: black;
+   line-height: 41px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 60px;
+    right: 30px;
+    text-align: center;
+    display: none;
+}
